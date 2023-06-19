@@ -1,0 +1,35 @@
+.parent{
+    background-color: yellow;
+    width: 500px;
+    height: 500vh;
+/* 
+    position: relative; */
+}
+.child-first{
+    background-color: turquoise;
+    /* Relative position same as static but having option to move (left,right,top,bottom) */
+    
+    /* position: relative;
+    top: 10px;
+    left: 10px; */ 
+/* 
+    Absolute position is works with parent(relative postition), can state anywhere within parent container
+    position: absolute;
+    left: 10px;
+         */
+    /* Fixed position ficed on its position even scrolldown     
+    position:fixed;      */
+/* 
+      sticky position fixed on its position when scrolldown and hit the top, this child will be sticky from 19px top     
+    position:Sticky; 
+    top: 19px;     */
+
+
+}
+.child-second{
+    background-color: blueviolet;
+
+}
+.child-third{
+    background-color: brown;
+}
